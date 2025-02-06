@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Guru 99 Smoke Test Demo(failed)">
+    <classes>
+      <class name="example.TC_Class1_Group">
+        <methods>
+          <include name="tc05VerifyHyperlinks"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="tc04VerifyLoggedInPage"/>
+        </methods>
+      </class> <!-- example.TC_Class1_Group -->
+    </classes>
+  </test> <!-- Guru 99 Smoke Test Demo(failed) -->
+</suite> <!-- Failed suite [Suite] -->
