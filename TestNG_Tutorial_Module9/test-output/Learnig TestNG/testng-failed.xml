@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Learnig TestNG]">
+  <test thread-count="5" name="Application Test(failed)">
+    <classes>
+      <class name="testcases.ApplicationTest">
+        <methods>
+          <include name="doLogin"/>
+          <include name="forgotPassword"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="doPasswordChange"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.ApplicationTest -->
+    </classes>
+  </test> <!-- Application Test(failed) -->
+  <test thread-count="5" name="Reg Test(failed)">
+    <classes>
+      <class name="testcases.RegTest">
+        <methods>
+          <include name="doRegisterTest"/>
+        </methods>
+      </class> <!-- testcases.RegTest -->
+    </classes>
+  </test> <!-- Reg Test(failed) -->
+</suite> <!-- Failed suite [Learnig TestNG] -->

@@ -1,0 +1,8 @@
+<?xm"src/Package1/Class1.java"l version="1.0" encoding="UTF-8"?><!--Lekha - This is a test file-->
+<!DOCTYPE RootElement SYSTEM "RootElement.dtd">
+<School>
+	<Sections Test_Attribute="10001">
+		<Section_A Test_Attribute="11"></Section_A>
+		<Section_B Test_Attribute="11"></Section_B>
+	</Sections>
+</School>

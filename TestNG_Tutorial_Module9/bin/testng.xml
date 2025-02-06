@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Learnig TestNG">
+
+<test name="Application Test" allow-return-values = "true">
+    <classes>
+        <class name="testcases.ApplicationTest" ></class>  
+    </classes>
+</test>
+
+<test name="Login Test" allow-return-values = "true">
+    <classes>
+        <class name="testcases.LoginTest" ></class>  
+    </classes>
+</test>
+
+<test name="Reg Test" allow-return-values = "true">
+    <classes>
+        <class name="testcases.RegTest" ></class>  
+    </classes>
+</test>
+
+
+</suite>
